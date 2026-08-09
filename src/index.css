@@ -843,10 +843,17 @@ nav button:hover {
 }
 
 .app.dark nav button {
-  background: #ffffff !important;
-  color: #111111 !important;
+  background: #222222 !important;
+  color: #ffffff !important;
 
-  border-color: #ffffff !important;
+  border: 1px solid #444444 !important;
+
+  box-shadow: none !important;
+}
+
+.app.dark nav button:hover {
+  background: #333333 !important;
+  color: #ffffff !important;
 }
 
 /* DARK SECTIONS */
@@ -866,4 +873,200 @@ nav button:hover {
 .app.dark .portfolio-card p,
 .app.dark .project-card p {
   color: #aaaaaa !important;
+}
+/* =========================
+   FINAL LIGHT / DARK FIX
+========================= */
+
+/* ---------- LIGHT MODE ---------- */
+
+body {
+  background: #fdf2f8;
+  color: #222;
+}
+
+.app {
+  background: #fdf2f8 !important;
+  color: #222;
+}
+
+/* Navbar */
+nav {
+  background: #ffffff !important;
+  color: #222222 !important;
+
+  border: 1px solid #f1d5e2 !important;
+  box-shadow: none !important;
+}
+
+nav h2 {
+  color: #222222 !important;
+}
+
+nav a {
+  color: #444444 !important;
+}
+
+nav a:hover {
+  color: #d9467a !important;
+}
+
+nav button {
+  background: #222222 !important;
+  color: #ffffff !important;
+
+  border: 1px solid #222222 !important;
+}
+
+/* Hero */
+header {
+  background: #ffffff !important;
+  color: #222222 !important;
+
+  border: 1px solid #eeeeee !important;
+  box-shadow: none !important;
+}
+
+header h1 {
+  color: #222222 !important;
+  background: none !important;
+  -webkit-text-fill-color: #222222 !important;
+}
+
+header p {
+  color: #666666 !important;
+}
+
+.hero-label {
+  color: #888888 !important;
+}
+
+/* Hero button */
+.hero-btn {
+  background: #222222 !important;
+  color: #ffffff !important;
+
+  border: 1px solid #222222 !important;
+}
+
+
+/* ---------- DARK MODE ---------- */
+
+.app.dark {
+  background: #111111 !important;
+  color: #eeeeee !important;
+}
+
+.app.dark body {
+  background: #111111 !important;
+}
+
+/* Navbar */
+.app.dark nav {
+  background: #181818 !important;
+  color: #ffffff !important;
+
+  border: 1px solid #333333 !important;
+}
+
+.app.dark nav h2 {
+  color: #ffffff !important;
+}
+
+.app.dark nav a {
+  color: #eeeeee !important;
+}
+
+.app.dark nav a:hover {
+  color: #ffffff !important;
+}
+
+.app.dark nav button {
+  background: #222222 !important;
+  color: #ffffff !important;
+
+  border: 1px solid #444444 !important;
+}
+
+/* Hero */
+.app.dark header {
+  background: #181818 !important;
+  color: #eeeeee !important;
+
+  border: 1px solid #333333 !important;
+}
+
+.app.dark header h1 {
+  color: #ffffff !important;
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.app.dark header p {
+  color: #aaaaaa !important;
+}
+
+.app.dark .hero-label {
+  color: #999999 !important;
+}
+
+/* Hero button */
+.app.dark .hero-btn {
+  background: #ffffff !important;
+  color: #111111 !important;
+
+  border: 1px solid #ffffff !important;
+}
+
+/* Sections */
+.app.dark section,
+.app.dark .project-card {
+  background: #181818 !important;
+  color: #eeeeee !important;
+
+  border-color: #333333 !important;
+}
+
+.app.dark section h2,
+.app.dark .project-card h2,
+.app.dark .portfolio-card h3 {
+  color: #ffffff !important;
+}
+
+.app.dark section p,
+.app.dark .project-card p,
+.app.dark .portfolio-card p {
+  color: #aaaaaa !important;
+}
+/* =========================
+   FINAL BACKGROUND FIX
+========================= */
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+/* Light mode */
+html,
+body {
+  background: #fdf2f8;
+}
+
+/* Dark mode */
+html:has(.app.dark),
+body:has(.app.dark) {
+  background: #111111 !important;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* IMPORTANT:
+   Remove the old padding-top fix */
+.app {
+  padding-top: 0 !important;
 }
