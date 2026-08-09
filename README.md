@@ -1,16 +1,26 @@
-# React + Vite
+# 🌸 Prachi's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small, simple portfolio website made with React — just a little pink, a little cute, and a lot of code 💗
 
-Currently, two official plugins are available:
+### ✨ About
+I'm Prachi Patoliya, a Computer Engineering student interested in web development, cybersecurity, and building useful projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🛠️ Built With
+- React
+- JavaScript
+- HTML & CSS
+- GitHub API
 
-## React Compiler
+### 💌 Features
+- Personal portfolio
+- Skills & projects
+- GitHub projects fetched through API
+- Contact page
+- Light / Dark mode
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌷 Made With
+Code, caffeine & questionable debugging decisions ♡
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Made by Prachi Patoliya 💗**
